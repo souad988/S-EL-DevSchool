@@ -1,0 +1,109 @@
+.about {
+    text-align: center;
+}
+
+header {
+    text-align: left;
+}
+
+.header_headlines_description {
+    background-color: white;
+    border: 2px solid rgb(240, 237, 237);
+    padding: 4%;
+}
+
+.course_email {
+    color: #706f6f;
+    font-weight: 500;
+}
+
+.course_email_link {
+    color: #706f6f;
+    font-weight: bolder;
+}
+
+.main_program {
+    padding: 4%;
+    background: white;
+    color: #555454;
+    border-bottom: 2px solid #ccc9c9;
+}
+
+.main_program_title {
+    color: #363636;
+}
+
+.main_program .logo_container {
+    width: 90%;
+    border: 2px solid #e0dfdf;
+    padding: 0%;
+    margin: 10% auto;
+}
+
+.logo_container img {
+  width: 65%;
+  padding: 4%;
+}
+
+.past_courses {
+    padding: 3% 10%;
+    text-align: center;
+}
+
+.past_course_card {
+    background-image: url('./media/images/past_events/images.jpg') ;
+    width: 100%;
+    height: 30vh;
+    margin: 5% auto;
+}
+
+.past_course_card div {
+    background-color: rgb(240, 0, 0,0.4);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.past_course_card strong {
+  font-size: x-large;
+}
+
+.partners {
+    background-color: #555454;
+}
+
+.partners h3 {
+    color: #e0dfdf;
+}
+
+.partners_icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.partners_icon {
+    float: left;
+    color: #ccc9c9;
+    font-weight: 900;
+    margin: 5% 3%;
+    font-size: x-large;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+footer p {
+    font-size: small;
+    color: #555454;
+    font-weight: bold;
+    align-self: center;
+}
+
