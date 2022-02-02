@@ -1,3 +1,7 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+@import url('http://fonts.cdnfonts.com/css/lato-light');
+
+                               
 body {
     margin: 0%;
     font-family:'Lato', sans-serif;
@@ -31,10 +35,12 @@ body {
   
   .upper_headline {
     font-family: 'COCOGOOSE', sans-serif; 
-    font-size: xxx-large; 
+    font-size: 3rem; 
     margin-top: 0%; 
-    background: -webkit-linear-gradient(27deg
-    , #ff0000 , rgb(252 174 7) ,#ff0000 );
+   /* background: -webkit-linear-gradient(27deg
+    , #ff0000 , rgb(252 174 7) ,#ff0000 );*/
+    background: url('./media/images/bg/headline.jpg');
+    background-position: bottom ;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
     font-weight: 900;
@@ -42,7 +48,6 @@ body {
   }
     
 .lower_headline{
-  font-family: 'COCOGOOSE', sans-serif;
   color: #fb5205;
   font-size: 2rem; 
   margin-bottom: 0%;
