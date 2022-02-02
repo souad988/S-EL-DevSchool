@@ -172,7 +172,10 @@ body {
 }
 
 .speaker_img {
-    padding: 5%;
+    padding: 20% 10% 10% 20%  ;
+    background-image: url('./media/images/speakers/checkers.png');
+    background-repeat: no-repeat;
+    background-size: 70%;
 }
 .speaker_img img {
     width: 100%;
@@ -190,6 +193,7 @@ body {
 }
 
 .speakers_more .fas {
+    margin-left: 5px;
     color: #ff0000;
 }
 /*
