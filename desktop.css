@@ -4,4 +4,76 @@
 
 .desktop_header {
     display: flex;
+    flex-direction: column;
+}
+
+.top_nav_ul, .menu_nav_ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+
+.top_nav_li {
+    padding: 1vh 0;
+    margin-left:4%;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.top_nav {
+    background-color: #272A31;
+    color: #D3D3D3;
+}
+
+
+
+.menu_nav {
+    background-color: white;
+    box-shadow: 3px 3px 8px rgb(202, 201, 200);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.menu_nav, .top_nav {
+    padding: 0% 8%;
+}
+
+.menu_nav_ul {
+    justify-content: flex-end;
+    align-items: center;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.menu_nav li {
+    font-size: 0.9rem;
+    font-weight: bold;
+    align-items: center;
+}
+/*
+.menu_nav>ul>li + .menu_nav>ul>li {
+    margin-left: 1em;
+}
+*/
+.desktop_menu_logo {
+    width: 75px;
+}
+
+.header_headlines_section {
+    padding: 0%;
+}
+
+.cc {
+    outline: 2px solid tomato;
+    color: tomato;
+    outline-offset: 4px;
+
+
+}
+.desktop_ul_container {
+    padding: 2vh 0;
 }

@@ -1,6 +1,11 @@
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
 @import url('http://fonts.cdnfonts.com/css/lato-light');
 
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
 
 body {
   margin: 0%;
@@ -96,7 +101,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 3fr 6fr;
   align-items: center;
-  padding: 0 5%;
+  padding: 4% 5%;
   margin: 2%;
 }
 
@@ -143,12 +148,12 @@ body {
 
 .speaker_card {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: auto 2fr;
+  column-gap: 3em;
   margin: 3% auto;
 }
 
 .speaker_name {
-  margin-bottom: 3%;
   font-weight: bolder;
 }
 
@@ -167,6 +172,7 @@ body {
 .speaker_info {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .speaker_info hr {
@@ -182,8 +188,8 @@ body {
 }
 
 .speaker_img img {
-  width: 100%;
-  height: 100%;
+  object-fit: contain;
+  width: 6em;
 }
 
 .speakers_more {
@@ -204,7 +210,7 @@ body {
 .menu_list_container, .menu_list_container_about{
     display: none;
     border-bottom: #8b8b8b 2px solid ;
-    box-shadow: 3px 3px  rgb(117, 109, 104);
+    box-shadow: 3px 3px 8px rgb(202, 201, 200);
     position: sticky;
     top: 0;
     z-index: 1;
