@@ -1,0 +1,7 @@
+.mobile_header {
+    display: none;
+}
+
+.desktop_header {
+    display: flex;
+}

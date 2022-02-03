@@ -23,16 +23,21 @@ body {
   font-weight: bold;
 }
 
-.menu_icon {
+.menu_icon, .menu_icon_about{
   color: #7f7b7b;
   font-size: 2.5rem;
   font-weight: bolder;
+  cursor: pointer;
 }
 
-header {
+.mobile_header {
+  padding-top: 2%;
   margin-bottom: 10vh;
 }
 
+.desktop_header {
+    display: none;
+}
 .upper_headline {
   font-family: 'COCOGOOSE', sans-serif;
   font-size: 3rem;
@@ -196,48 +201,33 @@ header {
   color: #f00;
 }
 
-/*
-.header_headlines_section {
-  background-image: url('./media/images/image1.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 100% 100%;
-  opacity: 1;
-
- /* background-color: black;
-
-  background-image: linear-gradient(20deg,black,white,black);
-  padding: 4%;
-}
-
-.menu_icon {
-  color: #e4a724;
-  font-size: xx-large;
-}
-/*
-.header_headlines_section h1 {
-  background: -webkit-linear-gradient(89.98deg, #256EFF 40.02%, black 60%,#F84F60 102.46%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: xx-large;
-  .header_headlines_section p {
-  color: rgb(236, 0, 91);
-  }
-}
-
-.header_headlines_section h1 {
-    background: -webkit-linear-gradient(89.98deg, #075852 10.02%,white 40%, #e4a724 90.46%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: xx-large;
+.menu_list_container, .menu_list_container_about{
+    display: none;
+    border-bottom: #8b8b8b 2px solid ;
+    box-shadow: 3px 3px  rgb(117, 109, 104);
+    position: sticky;
+    top: 0;
+    z-index: 1;
   }
 
-.header_headlines_section p {
-    background: -webkit-linear-gradient(180deg, #075852 ,white, #e4a724);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font: 1rem "Inter", Arial, sans-serif;
-    font-weight: bold;
-    font-size: large;
-    }
-*/
+.show_menu {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}  
+
+.menu_list_container ul, .menu_list_container_about ul {
+    list-style: none;
+    display: inline-flex; 
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    justify-content: space-between; 
+} 
+
+.menu_list_container a, .menu_list_container_about a {
+    text-decoration: none;
+    color: tomato;
+    font-weight: 800;
+    cursor: pointer;
+}

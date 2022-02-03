@@ -1,3 +1,5 @@
+/* DYNAMIC DISPLAY FOR SPEAKS SECTION CONTENT */
+
 const speakers = [
   {
     name: 'Souad El Mansouri',
@@ -94,3 +96,13 @@ speakersMore.addEventListener('click', () => {
     speakersMore.innerHTML = 'LESS<i class="fas fa-angle-up"></i>';
   }
 });
+
+/* DYNAMIC MENU FOR MOBILE */
+
+const menuContainer = document.querySelector('.menu_list_container');
+const menuIcon = document.querySelector('.menu_icon');
+
+menuIcon.addEventListener('click',function(){
+  menuContainer.classList.toggle('show_menu');
+});
+

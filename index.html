@@ -11,6 +11,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./main.css">
+        <link rel="stylesheet" media="screen and (min-width:790px)" href="./desktop.css"/>
         <script src="https://kit.fontawesome.com/58aa8d2b83.js" crossorigin="anonymous"></script>
     </head>
     <body>
@@ -18,9 +19,18 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <section class="header_headlines_section">
-            <header> 
-                <span class="menu_icon">&#9776;</span>
+            <header class="desktop_header"></header>
+            <header class="mobile_header"> 
+                <i class="fas fa-bars fa-3x menu_icon"></i>
+                <div class="menu_list_container">
+                <ul class="nav-links" id="humberger_menu_list">
+                  <li class="nav-link"><a href="./about.html">About</a></li>
+                  <li class="nav-link"><a href="#speakers">Speakers</a></li>
+                  <li class="nav-link"><a href="#program">Program</a></li>
+                </ul>
+              </div>
             </header>
+            
             <p class="lower_headline">"Hello! technology world"</p>
             <h1 class="upper_headline">WEB DEV COURSE 2022</h1>
             <div class="header_headlines_description">
@@ -34,7 +44,7 @@
                 @ youtube channel souad's space
             </p>
         </section>
-        <section class="main_program">
+        <section class="main_program" id="program">
             <h3 class="main_program_title">Main Program</h3>
             <div class="main_program_title_underline"></div>
             <div class="main_program_card">
@@ -74,7 +84,7 @@
             </div>
             <div class="main_program_button">Join the Course</div>
         </section>
-        <section class="speakers_section">
+        <section class="speakers_section" id="speakers">
             <h3 class="speakers_section_title">Featured Speakers</h3>
             <hr/>
             <div  class="speaker_card_list">
