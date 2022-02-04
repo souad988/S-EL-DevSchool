@@ -15,12 +15,16 @@ body {
 
 .header_headlines_section {
   background-image: url('./media/images/bg/header2.jpg');
-  padding: 0 6%;
-  padding-bottom: 16vh;
+  
+}
+
+.headlines {
+  padding: 12vh 6%;
+
 }
 
 .header_headlines_description {
-  border: 4px white solid;
+  border: 2px white solid;
   background-color: #f8f6f6;
   padding: 2%;
   color: #636262;
@@ -38,7 +42,8 @@ body {
 
 .mobile_header {
   padding-top: 2%;
-  margin-bottom: 10vh;
+  padding-left: 6%;
+
 }
 
 .desktop_header {
@@ -46,14 +51,15 @@ body {
 }
 .upper_headline {
   font-family: 'COCOGOOSE', sans-serif;
-  font-size: 3rem;
+  font-size: 3.3rem;
   margin-top: 0%;
-  background: url('./media/images/bg/headline.jpg');
-  background-position: bottom;
+  background: url('./media/images/bg/background_2.png');
+  background-position: top right;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 900;
   line-height: 9vh;
+  margin-bottom: 2vh;
 }
 
 .lower_headline {
@@ -64,8 +70,8 @@ body {
 
 .course-date {
   font-family: 'COCOGOOSE', sans-serif;
-  font-size: 2rem;
-  font-weight: 900;
+  font-size: 1.5rem;
+  font-weight: 500;
   color: #706f6f;
   margin: 0%;
 }
@@ -83,11 +89,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 2vh 0;
 }
 
 .main_program_title {
   color: #f8f6f6;
-  margin: 6% 0 0% 0;
+  margin: 0%;
 }
 
 .main_program_title_underline {
@@ -99,16 +106,19 @@ body {
 
 .main_program_card {
   background: rgba(255, 255, 255, 0.1);
-  display: grid;
-  grid-template-columns: 1fr 3fr 6fr;
+  display: flex;
   align-items: center;
-  padding: 4% 5%;
+  justify-content: center;
   margin: 2%;
+  padding: 3%;
 }
 
 .main_program_card strong {
   text-align: center;
   color: #fb5205;
+  margin: auto 4%;
+  font-size: large;
+
 }
 
 .main_program_card .fas {
@@ -128,6 +138,10 @@ body {
   line-height: 80px;
   margin: 5% auto;
   font-size: x-large;
+}
+
+.desktop_see_program {
+  display: none;
 }
 
 .speakers_section {

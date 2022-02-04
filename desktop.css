@@ -7,6 +7,10 @@
     flex-direction: column;
 }
 
+.upper_headline {
+    font-size: 3.5rem;
+}
+
 .top_nav_ul, .menu_nav_ul {
     list-style: none;
     display: flex;
@@ -54,11 +58,11 @@
     font-weight: bold;
     align-items: center;
 }
-/*
-.menu_nav>ul>li + .menu_nav>ul>li {
-    margin-left: 1em;
-}
-*/
+
+.headlines {
+    padding: 12vh 15%;
+  }
+
 .desktop_menu_logo {
     width: 75px;
 }
@@ -107,4 +111,36 @@
     border: 1px solid tomato;
     width: 5%;
     margin: 1vh 0;
+}
+
+.main_program_cards {
+    display: flex;
+    width: 100%;
+    padding: 0% 10%;
+
+}
+
+.main_program_card {
+  flex-direction: column;
+  margin: auto 1%;
+  padding: 1%;
+}
+
+.main_program_card strong {
+    margin:  4% auto;
+}
+
+.main_program_card p {
+    text-align: center;
+}
+
+.desktop_see_program {
+    display: block;
+    color: #D3D3D3;
+    font-size: 1.1rem;
+    padding: 8vh;
+}
+
+.main_program_button {
+   display: none;
 }
