@@ -36,15 +36,15 @@ const speakers = [
     image: './media/images/speakers/bill.jpg',
     prof: 'Full stack developer at microverse inc',
     desc: 'Mark Elliot Zuckerberg is an American media magnate, internet entrepreneur, and philanthropist and Facebook, Inc co-founder.',
-  }
+  },
 ];
 
 const speakersSection = document.querySelector('.speaker_card_list');
 const speakersSectionMore = document.querySelector('.speaker_card_list1');
 const speakersMore = document.querySelector('.speakers_more');
-let displayed=3;
+const displayed = 3;
 
-function displaySpeakers(from,to){
+function displaySpeakers(from, to) {
   for (let i = from; i < to; i += 1) {
     speakersSection.innerHTML += ` <div class="speaker_card">
       <div class="speaker_img"><img src= ${speakers[i].image} alt=""></div>
@@ -58,30 +58,26 @@ function displaySpeakers(from,to){
   }
 }
 
-function checkScreenSize(nbr){
-  if(window.innerWidth<=767){
-    nbr=3;
-  }else{
-    nbr=speakers.length;
+function checkScreenSize(nbr) {
+  if (window.innerWidth <= 767) {
+    nbr = 3;
+  } else {
+    nbr = speakers.length;
   }
   return nbr;
 }
-window.addEventListener('resize',function(){
-  console.log('resized');
-  speakersSection.innerHTML='';
-  displaySpeakers(0,checkScreenSize(displayed));
-})
+window.addEventListener('resize', () => {
+  speakersSection.innerHTML = '';
+  displaySpeakers(0, checkScreenSize(displayed));
+});
 
-
-if (document.readyState !== "loading") {
-  console.log('loaded');
-  speakersSection.innerHTML='';
-  displaySpeakers(0,checkScreenSize(displayed));
+if (document.readyState !== 'loading') {
+  speakersSection.innerHTML = '';
+  displaySpeakers(0, checkScreenSize(displayed));
 } else {
-  document.addEventListener("DOMContentLoaded", function(){
-    console.log('loaded');
-    speakersSection.innerHTML='';
-    displaySpeakers(0,checkScreenSize(displayed));
+  document.addEventListener('DOMContentLoaded', () => {
+    speakersSection.innerHTML = '';
+    displaySpeakers(0, checkScreenSize(displayed));
   });
 }
 
@@ -114,7 +110,6 @@ speakersMore.addEventListener('click', () => {
 const menuContainer = document.querySelector('.menu_list_container');
 const menuIcon = document.querySelector('.menu_icon');
 
-menuIcon.addEventListener('click',function(){
+menuIcon.addEventListener('click', () => {
   menuContainer.classList.toggle('show_menu');
 });
-

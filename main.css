@@ -1,7 +1,8 @@
+
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
 @import url('http://fonts.cdnfonts.com/css/lato-light');
 
-*{
+* {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
@@ -15,12 +16,10 @@ body {
 
 .header_headlines_section {
   background-image: url('./media/images/bg/header2.jpg');
-  
 }
 
 .headlines {
   padding: 12vh 6%;
-
 }
 
 .header_headlines_description {
@@ -33,7 +32,8 @@ body {
   font-weight: bold;
 }
 
-.menu_icon, .menu_icon_about{
+.menu_icon,
+.menu_icon_about {
   color: #7f7b7b;
   font-size: 2.5rem;
   font-weight: bolder;
@@ -43,14 +43,14 @@ body {
 .mobile_header {
   padding-top: 2%;
   padding-left: 6%;
-
 }
 
 .desktop_header {
-    display: none;
+  display: none;
 }
+
 .upper_headline {
-  font-family: 'COCOGOOSE', sans-serif;
+  font-family: "cocogoose", "monospace", "Poppins", sans-serif;
   font-size: 3.3rem;
   margin-top: 0%;
   background: url('./media/images/bg/background_2.png');
@@ -69,7 +69,7 @@ body {
 }
 
 .course-date {
-  font-family: 'COCOGOOSE', sans-serif;
+  font-family: 'cocogoose', sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
   color: #706f6f;
@@ -104,6 +104,13 @@ body {
   margin: 1vh 0 3vh 0;
 }
 
+footer p {
+  font-size: small;
+  color: #555454;
+  font-weight: bold;
+  align-self: center;
+}
+
 .main_program_card {
   background: rgba(255, 255, 255, 0.1);
   display: flex;
@@ -118,7 +125,6 @@ body {
   color: #fb5205;
   margin: auto 4%;
   font-size: large;
-
 }
 
 .main_program_card .fas {
@@ -222,48 +228,53 @@ body {
   color: #f00;
 }
 
-.menu_list_container, .menu_list_container_about{
-    display: none;
-    border-bottom: #8b8b8b 2px solid ;
-    box-shadow: 3px 3px 8px rgb(202, 201, 200);
-    position: sticky;
-    top: 0;
-    z-index: 1;
-  }
+.menu_list_container,
+.menu_list_container_about {
+  display: none;
+  border-bottom: #8b8b8b 2px solid;
+  box-shadow: 3px 3px 8px rgb(202, 201, 200);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
 
 .show_menu {
-    display: flex;
-    width: 80%;
-    margin: auto;
-}  
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
 
-.menu_list_container ul, .menu_list_container_about ul {
-    list-style: none;
-    display: inline-flex; 
-    width: 100%;
-    margin: auto;
-    padding: 0;
-    justify-content: space-between; 
-} 
+.menu_list_container ul,
+.menu_list_container_about ul {
+  list-style: none;
+  display: inline-flex;
+  width: 100%;
+  margin: auto;
+  padding: 0;
+  justify-content: space-between;
+}
 
-.menu_list_container a, .menu_list_container_about a {
-    text-decoration: none;
-    color: tomato;
-    font-weight: 800;
-    cursor: pointer;
+.menu_list_container a,
+.menu_list_container_about a {
+  text-decoration: none;
+  color: tomato;
+  font-weight: 800;
+  cursor: pointer;
 }
 
 .speaker_card_list {
   margin-top: 10vh;
 }
 
-#home_partners, #home_footer {
+#home_partners,
+#home_footer {
   display: none;
 }
 
-.home_partners, .about_partners {
-  background-color: #272A31;
-  color: #D3D3D3;
+.home_partners,
+.about_partners {
+  background-color: #272a31;
+  color: #d3d3d3;
 }
 
 .partners_icons {
@@ -293,13 +304,11 @@ footer {
   margin: 2vh 6%;
 }
 
-footer p {
-  font-size: small;
-  color: #555454;
-  font-weight: bold;
-  align-self: center;
+.menu_nav a,
+.about_nav a {
+  color: #272a31;
 }
 
-.menu_nav a, .about_nav a{
-  color: #272A31;
+.first_nav_child {
+  color: tomato;
 }

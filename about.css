@@ -9,7 +9,7 @@ body {
 }
 
 .menu_icon_about {
-   float: left;
+  float: left;
 }
 
 .header_headlines_description {
@@ -43,7 +43,7 @@ body {
   width: 90%;
   border: 2px solid #e0dfdf;
   padding: 0%;
-  margin: 10% auto;
+  margin: 8vh auto;
 }
 
 .logo_container img {
@@ -80,13 +80,12 @@ body {
 
 #about_partners {
   display: flex;
-
 }
 
 .about_partners {
   flex-direction: column;
   align-items: center;
-  padding: 5vh ;
+  padding: 5vh;
 }
 
 .about_partners hr {
@@ -97,12 +96,11 @@ body {
 
 #about_footer {
   background-color: white;
-  color:#272A31;
+  color: #272a31;
 }
 
 .past_course_cards {
   width: 100%;
   display: flex;
-  flex-direction: column ; 
-
+  flex-direction: column;
 }
