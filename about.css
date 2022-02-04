@@ -72,44 +72,6 @@ header {
   font-size: x-large;
 }
 
-.partners {
-  background-color: #555454;
-}
-
-.partners h3 {
-  color: #e0dfdf;
-}
-
-.partners_icons {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.partners_icon {
-  float: left;
-  color: #ccc9c9;
-  font-weight: 900;
-  margin: 5% 3%;
-  font-size: x-large;
-}
-
-footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: center;
-}
-
-.footer_logo {
-  width: 150px;
-  justify-self: center;
-  margin: 6%;
-}
-
-footer p {
-  font-size: small;
-  color: #555454;
-  font-weight: bold;
-  align-self: center;
+#about_partners, #about_footer {
+  display: block;
 }

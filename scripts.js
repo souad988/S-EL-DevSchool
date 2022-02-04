@@ -59,7 +59,7 @@ function displaySpeakers(from,to){
 }
 
 function checkScreenSize(nbr){
-  if(window.innerWidth<=790){
+  if(window.innerWidth<=767){
     nbr=3;
   }else{
     nbr=speakers.length;
@@ -72,12 +72,18 @@ window.addEventListener('resize',function(){
   displaySpeakers(0,checkScreenSize(displayed));
 })
 
-document.addEventListener('DOMContentLoaded',function(){
+
+if (document.readyState !== "loading") {
   console.log('loaded');
   speakersSection.innerHTML='';
   displaySpeakers(0,checkScreenSize(displayed));
-})
-
+} else {
+  document.addEventListener("DOMContentLoaded", function(){
+    console.log('loaded');
+    speakersSection.innerHTML='';
+    displaySpeakers(0,checkScreenSize(displayed));
+  });
+}
 
 function displayMore() {
   for (let i = 3; i < speakers.length; i += 1) {

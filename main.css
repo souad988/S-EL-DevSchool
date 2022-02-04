@@ -137,13 +137,13 @@ body {
 }
 
 .speakers_section_title {
-  margin-bottom: 0%;
+  margin-bottom: 1vh;
   font-size: x-large;
 }
 
 .speakers_section > hr {
   border: 1px solid #fb5205;
-  width: 10%;
+  width: 7%;
 }
 
 .speaker_card {
@@ -237,3 +237,51 @@ body {
     font-weight: 800;
     cursor: pointer;
 }
+
+.speaker_card_list {
+  margin-top: 10vh;
+}
+
+#home_partners, #home_footer {
+  display: none;
+}
+
+.home_partners {
+  background-color: #272A31;
+  color: #D3D3D3;
+}
+
+.partners_icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: stretch;
+}
+
+.partners_icon {
+  float: left;
+  font-weight: 900;
+  margin: 5% 3%;
+  font-size: x-large;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+
+.footer_logo {
+  width: 150px;
+  justify-self: center;
+  margin: 6%;
+}
+
+footer p {
+  font-size: small;
+  color: #555454;
+  font-weight: bold;
+  align-self: center;
+}
+

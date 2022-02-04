@@ -77,3 +77,34 @@
 .desktop_ul_container {
     padding: 2vh 0;
 }
+
+.speakers_section {
+    padding: 0% 10%;
+    margin: 5vh 0;
+}
+
+.speaker_card_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2em;
+}
+
+.speakers_more {
+  display: none;
+}
+
+#home_partners, #home_footer {
+    display: flex;
+}
+
+.home_partners {
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh ;
+}
+
+.home_partners hr {
+    border: 1px solid tomato;
+    width: 5%;
+    margin: 1vh 0;
+}
