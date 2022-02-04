@@ -59,7 +59,7 @@ body {
   -webkit-text-fill-color: transparent;
   font-weight: 900;
   line-height: 9vh;
-  margin-bottom: 2vh;
+  margin-bottom: 5vh;
 }
 
 .lower_headline {
@@ -98,10 +98,10 @@ body {
 }
 
 .main_program_title_underline {
-  height: 1px;
-  width: 10%;
+  height: 2px;
+  width: 7%;
   background-color: #fb5205;
-  margin: 2% 0 6% 0;
+  margin: 1vh 0 3vh 0;
 }
 
 .main_program_card {
@@ -261,7 +261,7 @@ body {
   display: none;
 }
 
-.home_partners {
+.home_partners, .about_partners {
   background-color: #272A31;
   color: #D3D3D3;
 }
@@ -290,7 +290,7 @@ footer {
 .footer_logo {
   width: 150px;
   justify-self: center;
-  margin: 6%;
+  margin: 2vh 6%;
 }
 
 footer p {
@@ -300,3 +300,6 @@ footer p {
   align-self: center;
 }
 
+.menu_nav a, .about_nav a{
+  color: #272A31;
+}

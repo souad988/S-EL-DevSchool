@@ -12,6 +12,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./main.css">
         <link rel="stylesheet" href="./about.css">
+        <link rel="stylesheet" media="screen and (min-width:768px)" href="./desktop.css"/>
         <script src="https://kit.fontawesome.com/58aa8d2b83.js" crossorigin="anonymous"></script>
     </head>
     <body>
@@ -19,7 +20,29 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <section class="header_headlines_section about">
-            <header> 
+            <header class="desktop_header">
+                <nav class="top_nav">
+                    <ul class="top_nav_ul">
+                        <li class="top_nav_li"><i class="fab fa-facebook-f"></i></li>
+                        <li class="top_nav_li"><i class="fab fa-twitter"></i></li>
+                        <li class="top_nav_li">english</li>
+                        <li class="top_nav_li">My Page</li>
+                        <li class="top_nav_li">logout</li>
+                    </ul>
+                </nav>
+                <nav class="menu_nav">
+                    <a href="./index.html"><img class="desktop_menu_logo" src="./media/images/logo/my_logo.svg" alt=""></a>
+                    <ul class="menu_nav_ul">
+                        <a href="./about.html"><li>About</li></a>
+                        <a href="#program"><li>Program</li></a>
+                        <a href="#about_footer"><li>Join</li></a>
+                        <a href="#about_footer"><li>Sponsor</li></a>
+                        <a href="#about_footer"><li>News</li></a>
+                        <a href="#about_footer"><li > <div class="cc"> CC Compaign</div></li></a>
+                    </ul>
+                </nav>
+            </header>
+            <header class="mobile_header"> 
                 <i class="fas fa-bars fa-3x menu_icon_about"></i>
                 <div class="menu_list_container_about">
                 <ul class="nav-links" id="humberger_menu_list">
@@ -29,6 +52,7 @@
                 </ul>
               </div>
             </header>
+            <div class="headlines">
             <p class="lower_headline">"Hello! technology world"</p>
             <h1 class="upper_headline">WEB DEV COURSE 2022</h1>
             <div class="header_headlines_description">
@@ -39,7 +63,7 @@
                 Please contact us by Email for any further questions about the National Hackerton Conference 2021 
             </p>
             <a class="course_email_link" href="mailto:souadelmansouri2018@gmail.com"> souadelmansouri2018@gmail.com</a>
-            
+            </div>
         </section>
         <section class="main_program main_program_about about">
             <h3 class="main_program_title">Web Dev Course 2022 Logo</h3>
@@ -50,8 +74,9 @@
             </div>
         </section>
         <section class="speakers_section past_courses" id="editions">
-            <h3 class="speakers_section_title">Past Cources</h3>
+            <h3 class="speakers_section_title">Past Courses</h3>
             <hr/>
+            <div class="past_course_cards">
               <div class="past_course_card">
               <div>
                   <strong>2021</strong>
@@ -65,6 +90,7 @@
                     <p>last years edition</p>
                  </div>
                 </div>
+            </div>
          </section>
          <section class="about_partners" id="about_partners">
             <h3 class="partners_title">Partners</h3>

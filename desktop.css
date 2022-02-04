@@ -60,7 +60,7 @@
 }
 
 .headlines {
-    padding: 12vh 15%;
+    padding: 16vh 15%;
   }
 
 .desktop_menu_logo {
@@ -95,6 +95,10 @@
 
 .speakers_more {
   display: none;
+}
+
+#about_partners {
+    display: none;
 }
 
 #home_partners, #home_footer {
@@ -143,4 +147,27 @@
 
 .main_program_button {
    display: none;
+}
+
+.past_course_cards  {
+    flex-direction: row;
+    column-gap: 2%;
+}
+
+.past_course_card {
+    width: 60%;
+}
+
+.main_program .logo_container {
+    width: 40%;
+}
+
+#about_footer {
+    background-color: #272A31;
+    color: #D3D3D3;
+  }
+
+.menu_nav a {
+    text-decoration: none;
+    cursor: pointer;
 }
