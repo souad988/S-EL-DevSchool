@@ -34,7 +34,7 @@
 
 > By watching this short video, you will have a better understanding of our project and mission.
 
-[S_EL_WEBDEV?]
+[S_EL_WEBDEV?](https://www.loom.com/share/843c6c437bec450b874e5c855c6c4147)
 
 ## Getting started
 
