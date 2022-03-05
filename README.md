@@ -2,7 +2,7 @@
 
 ![Microverse bagde](https://img.shields.io/badge/Microverse-blueviolet)
 
-> This is the first capstone project from microverse. this project is a website for web developement schools, were students can see new courses info programs and teachers .
+> This is the first capstone project from microverse. this project is a website for web developement schools, were students can see new courses info programs and teachers . built using html/css and javascript
 
 ## Screenshots
 
