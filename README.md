@@ -9,7 +9,8 @@
 - **Laptops/Desktops:**
 
 ---
-![Computer screenshot](./media/images/home_screenshot.PNG)
+![home_screenshot](https://user-images.githubusercontent.com/59707859/163657286-0844c43f-8c03-4056-a1b0-23f39e33348a.png)
+
 
 - **Mobile:**
 
